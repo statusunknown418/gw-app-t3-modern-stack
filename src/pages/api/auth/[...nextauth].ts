@@ -32,6 +32,10 @@ export const authOptions: NextAuthOptions = {
       },
     }),
   ],
+
+  pages: {
+    signIn: "/whoAreYou/signIn",
+  },
 };
 
 export default NextAuth(authOptions);
